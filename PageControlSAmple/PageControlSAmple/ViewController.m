@@ -25,7 +25,7 @@
     [self.pageControl setNumberOfPages:2];
     [self.pageControl addTarget:self action:@selector(changePage) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:self.pageControl];
-    
+    [self.view setBackgroundColor:[UIColor blackColor]];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
